@@ -1,0 +1,55 @@
+@media (max-width: 700px) {
+  body {
+    overflow: hidden;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+    display: block;
+  }
+
+  #navbar .left {
+    padding: 2em;
+  }
+
+  #navbar .right {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .mainNav {
+    flex-direction: column;
+  }
+
+  .mainNav .right ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #hero img {
+    display: none;
+  }
+
+  #features {
+    height: auto;
+  }
+
+  #features .mainArea .right {
+    left: 0;
+  }
+
+  #tour .left h3 {
+    font-size: 1.3em;
+    position: relative;
+    top: 1em;
+  }
+
+  #contact {
+    display: none;
+  }
+}

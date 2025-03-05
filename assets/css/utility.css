@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+}
+
+.ham {
+  height: 0;
+  width: 2.2em;
+  margin: 0.2em 0;
+  border: 0.1em solid #fff;
+}
+
+.none {
+  display: none;
+}
+
+.white {
+  color: #fff;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tae {
+  text-align: end;
+}
+
+.tal {
+  text-align: left;
+}
+
+.white {
+  color: #fff;
+}
+
+.open {
+  font-size: 2em;
+}

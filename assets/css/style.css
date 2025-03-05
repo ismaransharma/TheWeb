@@ -1,0 +1,371 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --nav: #24292e;
+  --bluish: #7891d3;
+  --btn: #3cd458;
+}
+#navbar {
+  height: 5em;
+  top: 0;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--nav);
+  color: #fff;
+  z-index: 99999;
+  width: 100%;
+}
+
+#navbar h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar .container .mainNav {
+  align-items: center;
+  justify-content: space-between;
+  /* display: none; */
+}
+
+#navbar .container .right ul {
+  gap: 5em;
+}
+
+#navbar .container .right ul li {
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+#navbar .container .mainNav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hamburger {
+  position: fixed;
+  top: 1em;
+  right: 8em;
+  top: 1.2em;
+  cursor: pointer;
+  display: none;
+}
+
+.close {
+  position: fixed;
+  top: 1em;
+  right: 8em;
+  cursor: pointer;
+  display: none;
+  font-size: 2em;
+}
+
+/* Hero Section Css Starts Here */
+#hero {
+  height: 55em;
+  width: 100%;
+  background-image: url("../images/stars.jpg");
+  color: #fff;
+  padding: 5em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .col-md-6.left {
+  margin: 10em 0;
+}
+
+#hero .col-md-6.left h3 {
+  font-size: 4em;
+}
+
+#hero .col-md-6.left h4 {
+  font-size: 1.8em;
+  margin: 2em 0;
+  color: #f2f2f2;
+}
+
+#hero .col-md-6.right {
+  text-align: end;
+}
+
+#hero .col-md-6.right img {
+  height: 25em;
+  width: auto;
+  margin: 6em 0;
+}
+/* Hero Section Css Ends Here */
+
+/* Features Section Css Starts Here */
+#features {
+  height: auto;
+  width: 100%;
+  padding: 4em 0;
+  background-color: #f5f4f4;
+}
+
+#features .head {
+  margin: 0 0 2em 0;
+}
+
+#features .head h4 {
+  font-size: 2em;
+  font-family: "poppins";
+}
+
+#features .head h3 {
+  font-size: 3em;
+  font-family: "poppins";
+}
+
+#features .mainArea .left {
+  /* margin: 2em 0; */
+  right: 10em;
+  position: relative;
+  margin: 5em 0;
+}
+
+#features .mainArea .left img {
+  height: 20em;
+  width: 25em;
+  object-fit: cover;
+}
+
+#features .mainArea .right {
+  /* width: 20em; */
+  position: relative;
+  top: 4em;
+  left: 6em;
+  margin: 5em 0;
+  /* background-color: yellow; */
+}
+
+#features .mainArea .right .box {
+  height: auto;
+  width: 75%;
+  padding: 1em;
+  border: none;
+  border-radius: 0.5em;
+  transition: 0.4s ease-in-out;
+}
+
+#features .mainArea .right .box:hover {
+  background-color: var(--nav);
+  color: #fff;
+  transform: scale(1.09);
+}
+
+#features .mainArea .right .text {
+  font-size: 3em;
+  font-family: cursive;
+}
+
+#features .mainArea .right .desc {
+  font-size: 1.8em;
+  font-family: system-ui;
+  margin: 0.9em 0;
+}
+
+/* Features Section Css Ends Here */
+
+/* MiniFeat Section Css Starts Here */
+#miniFeat {
+  height: auto;
+  width: 100%;
+  padding: 5em 0;
+  /* background-color: red; */
+}
+
+#miniFeat .head h4 {
+  font-size: 4em;
+  font-family: "poppins";
+}
+
+#miniFeat .col-md-4 {
+  margin: 2em 0;
+}
+
+#miniFeat .col-md-4 .box {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #fbfbfb;
+  transition: 0.2s ease-in-out;
+}
+
+#miniFeat .col-md-4 .box:hover {
+  box-shadow: 0.3rem 0.3rem 0.8rem #252525;
+}
+
+#miniFeat .col-md-4 .box .left {
+  left: 5em;
+  position: relative;
+}
+
+#miniFeat .col-md-4 .box .left .icons {
+  font-size: 4em;
+  margin: 1em 0;
+  transition: 0.4s ease-in;
+}
+
+#miniFeat .col-md-4 .box:hover .icons {
+  transform: scale(1.3);
+  transform: rotate(180deg);
+}
+
+#miniFeat .col-md-4 .box .right h3 {
+  font-size: 2.7em;
+}
+
+#miniFeat .col-md-4 .box .right h5 {
+  font-size: 1.5em;
+  margin: 0.8em 0;
+}
+
+/* MiniFeat Section Css Ends Here */
+
+/* Tour Section Css Starts Here */
+#tour {
+  height: 10em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4em 0;
+  background-color: var(--bluish);
+}
+
+#tour .left h3 {
+  font-size: 2em;
+  margin: 0.8em 0;
+  color: #fff;
+}
+
+#tour .right .button {
+  height: 3em;
+  width: 10em;
+  text-align: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: normal;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 2em;
+  background-color: var(--btn);
+  transition: 0.3s ease-in-out;
+}
+
+#tour .right .button:hover {
+  border-radius: 6em 0;
+}
+/* Tour Section Css Ends Here */
+
+/* Price Section Css Starts Here */
+#price {
+  height: auto;
+  width: 100%;
+  padding: 4em 0;
+}
+
+#price .head h1 {
+  font-size: 4em;
+  font-family: "poppins";
+}
+
+#price .mainArea .box {
+  height: auto;
+  width: 100%;
+  padding: 2em;
+  margin: 4em 0;
+  background-color: #fbfbfb;
+  transition: 0.3s ease-in;
+}
+
+#price .mainArea .box:hover {
+  transform: scale(1.01);
+  box-shadow: 0.5em 0.5em 1em #252525;
+}
+
+#price .mainArea .box h2 {
+  font-size: 2.4em;
+}
+
+#price .mainArea .box ul li {
+  font-size: 1.8em;
+  margin: 0.3em 0;
+}
+
+#price .mainArea .box button.getBtn {
+  height: 2em;
+  width: 6em;
+  background-color: #252525;
+  font-size: 1.8em;
+  border: none;
+  color: #fff;
+  border-radius: 0.4em;
+  margin: 1.5em 0;
+}
+
+/* Price Section Css Ends Here */
+
+/* Contact Us Section Css Starts Here */
+#contact {
+  height: auto;
+  width: 100%;
+  padding: 3em;
+  background-color: #f5f4f4;
+}
+
+#contact .head {
+  margin: 2em 0;
+}
+
+#contact .head h2 {
+  font-size: 4em;
+  font-family: "poppins";
+}
+
+#contact .left img {
+  height: 30em;
+  width: auto;
+}
+
+#contact .right input {
+  height: 3em;
+  width: 40em;
+  border: 0.1em solid #252525;
+  border-radius: 0.3em;
+  font-size: 1.2em;
+  padding: 0.4em;
+  outline: none;
+  margin: 1em 0;
+  color: #252525;
+}
+
+#contact .right textarea {
+  font-size: 1.2em;
+  border: 0.1em solid #252525;
+  outline: none;
+  padding: 0.4em;
+  color: #252525;
+  overflow: auto;
+}
+
+/* Contact Us Section Css Ends Here */
